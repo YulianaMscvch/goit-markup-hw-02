@@ -1,35 +1,57 @@
+:root {
+  --title-color: #2e2f42;
+  --first-title-color: #4d5ae5;
+  --third-title-color: #434455;
+  --fourth-title-color: #ffffff;
+  --fifth-title-color: #f4f4fd;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
 .list {
-   list-style: none; 
+  list-style: none;
 }
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* HEADER */
 
 .header-item {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-color);
 }
-.header-item:focus {
-  color: #4D5AE5;
+.header-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--first-title-color);
+  margin-right: 76px;
 }
+
+.logo-color {
+  color: var(--title-color);
+}
+
 .contacts-link {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--third-title-color);
+}
+.hero-page {
+  background-color: var(--title-color);
 }
 
 /* HERO */
@@ -43,44 +65,41 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--fourth-title-color);
+  cursor: pointer;
 }
 .hero-tile {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--fourth-title-color);
 }
 
-/* MAIN */
-
 .main-link {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 .main-p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--third-title-color);
 }
 
-/* BASE */
-
 .work-base {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -88,5 +107,17 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--title-color);
+}
+
+/* CLOSE */
+
+.close-link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--fifth-title-color);
 }
