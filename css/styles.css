@@ -50,8 +50,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--third-title-color);
 }
-.hero-page {
+.body-1 {
   background-color: var(--title-color);
+  color: var(--third-title-color);
 }
 
 /* HERO */
