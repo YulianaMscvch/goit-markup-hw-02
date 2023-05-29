@@ -57,7 +57,7 @@ body {
 /* HERO */
 
 .hero-button {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -65,7 +65,7 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: var(--fourth-title-color);
+  color: #4d5ae5;
   cursor: pointer;
 }
 .hero-tile {
