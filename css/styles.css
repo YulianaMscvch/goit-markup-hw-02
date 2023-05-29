@@ -41,15 +41,6 @@ body {
   color: var(--title-color);
 }
 
-.contacts-link {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--third-title-color);
-}
 .body-1 {
   background-color: var(--fourth-title-color);
   color: var(--third-title-color);
@@ -63,6 +54,15 @@ body {
   background-color: var(--title-color);
 }
 
+.auth-link-address {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  color: var(--third-title-color);
+}
 /* HERO */
 
 .hero-button {
