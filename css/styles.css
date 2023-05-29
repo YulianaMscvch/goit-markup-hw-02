@@ -4,6 +4,7 @@
   --third-title-color: #434455;
   --fourth-title-color: #ffffff;
   --fifth-title-color: #f4f4fd;
+  --ocean: #404bbf;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -131,14 +132,22 @@ body {
   color: var(--fifth-title-color);
 }
 .foot_title {
-  background-color: #2e2f42;
+  background-color: var(--title-color);
 }
 .link_logo {
-  color: var(--color-hover-nav);
+  color: var(--first-title-color);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.sub-link {
+  color: var(--title-color);
+}
+.studio {
+  color: var(--ocean);
+  font-weight: 500;
+  text-decoration: none;
 }
