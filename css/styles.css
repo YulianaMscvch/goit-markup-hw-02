@@ -136,6 +136,9 @@ body {
 .logo-color {
   color: #2e2f42;
 }
+.logo-color-link {
+  color: #2e2f42;
+}
 .link-logo {
   color: var(--first-title-color);
   font-family: "Raleway", sans-serif;
