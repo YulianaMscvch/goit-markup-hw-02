@@ -66,7 +66,7 @@ body {
 .nav-link:focus {
   color: var(--ocean);
 }
-.Studio {
+.studioo {
   color: var(--title-color);
 }
 
@@ -235,7 +235,6 @@ body {
 }
 body {
   margin: 0px;
-  padding: 0px;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: var(--third-title-color);
