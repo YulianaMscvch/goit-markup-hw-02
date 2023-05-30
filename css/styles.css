@@ -66,10 +66,6 @@ body {
 .nav-link:focus {
   color: var(--ocean);
 }
-.header-link {
-  color: var(--title-color);
-}
-
 .body-1 {
   background-color: var(--fourth-title-color);
   color: var(--third-title-color);
@@ -138,7 +134,7 @@ body {
   font-style: normal;
 }
 .studio {
-  color: var(--ocean);
+  color: var(--title-color);
   font-weight: 500;
   text-decoration: none;
 }
@@ -227,11 +223,6 @@ body {
 }
 .sub-link {
   color: var(--title-color);
-}
-.studio {
-  color: var(--fifth-title-color);
-  font-weight: 500;
-  text-decoration: none;
 }
 body {
   margin: 0px;
