@@ -36,7 +36,7 @@ body {
   text-transform: uppercase;
   color: var(--first-title-color);
 }
-.nav-link-1 {
+.nav-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
@@ -74,6 +74,9 @@ body {
   background-color: var(--fourth-title-color);
   color: var(--third-title-color);
 }
+.logo-color-span {
+  color: var(--title-color);
+}
 .title-section-one {
   font-size: 56px;
   line-height: 1.07;
@@ -88,7 +91,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--fourth-title-color);
-  background-color: var(--title-color);
+  background-color: #2e2f42;
 }
 .button_text {
   background-color: var(--first-title-color);
@@ -213,11 +216,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--fifth-title-color);
 }
+.hero-page {
+  color: #2e2f42;
+}
 .foot_title {
   background-color: var(--title-color);
 }
 .logo-color {
-  color: var(--fifth-title-color);
+  color: #f4f4fd;
 }
 .link_logo {
   color: var(--first-title-color);
