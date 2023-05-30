@@ -133,10 +133,8 @@ body {
 .address-studio {
   font-style: normal;
 }
-.studio {
-  color: var(--title-color);
-  font-weight: 500;
-  text-decoration: none;
+.logo-color {
+  color: #2e2f42;
 }
 .link-logo {
   color: var(--first-title-color);
