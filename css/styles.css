@@ -36,7 +36,16 @@ body {
   text-transform: uppercase;
   color: var(--first-title-color);
 }
-.header-link-1 {
+.nav-link-1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  color: var(--title-color);
+}
+.auth-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
@@ -44,6 +53,18 @@ body {
   letter-spacing: 0.02em;
   font-size: 16px;
   color: var(--third-title-color);
+}
+.auth-link:hover {
+  color: var(--ocean);
+}
+.auth-link:focus {
+  color: var(--ocean);
+}
+.nav-link-1:hover {
+  color: var(--ocean);
+}
+.nav-link-1:focus {
+  color: var(--ocean);
 }
 .logo-color {
   color: var(--title-color);
@@ -70,6 +91,9 @@ body {
   letter-spacing: 0.02em;
   font-size: 16px;
   color: var(--third-title-color);
+}
+.address-studio {
+  font-style: normal;
 }
 /* HERO */
 
