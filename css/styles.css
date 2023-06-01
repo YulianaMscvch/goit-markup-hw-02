@@ -7,12 +7,12 @@
   --ocean: #404bbf;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: var(--third-title-color);
   background-color: var(--fourth-title-color);
 }
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .list {
   list-style: none;
