@@ -150,6 +150,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.studio {
+  font-family: "Raleway", sans-serif;
+}
 /* HERO */
 
 .hero-tile {
