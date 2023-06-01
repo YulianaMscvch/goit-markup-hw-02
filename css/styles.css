@@ -8,7 +8,6 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  font-family: "Raleway", sans-serif;
   color: var(--third-title-color);
   background-color: var(--fourth-title-color);
 }
@@ -133,6 +132,7 @@ body {
 }
 .logo-color-item {
   color: var(--title-color);
+  font-family: "Raleway", sans-serif;
 }
 .logo-color-link {
   color: var(--title-color);
