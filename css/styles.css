@@ -8,6 +8,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: var(--third-title-color);
   background-color: var(--fourth-title-color);
 }
@@ -242,6 +243,7 @@ body {
   background-color: var(--ocean);
 }
 .about-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
