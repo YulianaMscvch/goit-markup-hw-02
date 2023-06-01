@@ -135,9 +135,11 @@ body {
 }
 .logo-color-item {
   color: var(--title-color);
+  font-family: "Raleway", sans-serif;
 }
 .logo-color-link {
   color: var(--title-color);
+  font-family: "Raleway", sans-serif;
 }
 .link-logo {
   color: var(--first-title-color);
